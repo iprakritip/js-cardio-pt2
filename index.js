@@ -21,17 +21,30 @@ const comments = [
 
 // const adults = people.some((person) => {
 //     const now = new Date
-//     const curentYear = now.getFullYear();
-//     console.log(curentYear);
-//     return curentYear - person.year >= 19
+//     const currentYear = now.getFullYear();
+//     console.log(currentYear);
+//     return currentYear - person.year >= 19
 // })
 // console.log(adults)
 
-  // Array.prototype.every() // is everyone 19 or older?
+// Array.prototype.every() // is everyone 19 or older?
+//check if all the people are 19 or older
+// const allAdults = people.every((person) => {
+//     const currentYear = (new Date).getFullYear();
+//     if (currentYear - person.year >= 19) {
+//         return true
+//     }
+
+// })
+// console.log(allAdults);
 
   // Array.prototype.find()
   // Find is like filter, but instead returns just the one you are looking for
   // find the comment with the ID of 823423
+//   const partID = comments.find((comment)=>{
+//     return comment.id===823423
+//   })
+//   console.log(partID);
 
   // Array.prototype.findIndex()
   // Find the comment with this ID
